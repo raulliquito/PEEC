@@ -1,0 +1,97 @@
+[H[2J[3J===========================================================================================================================
+
+                  For this Temperature estimation it was assumed that there is no correlation between line pairs.          
+
+                                   Running dir: Graphs_210.0_3.0/Graphs_logg/ratios_list_v2
+
+===========================================================================================================================
+
+
+-Running script for HD106315_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6394.2065 +/- 682.0117  without outlier removal (291).
+Teff: 6483.0424 +/- 145.2389  with outlier removal (185).
+
+
+
+-Running script for HD108147_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6202.213 +/- 371.2567  without outlier removal (551).
+Teff: 6258.5751 +/- 82.1456  with outlier removal (496).
+
+
+
+-Running script for HD11231_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6567.0005 +/- 491.9208  without outlier removal (581).
+Teff: 6641.1974 +/- 120.0753  with outlier removal (465).
+
+
+
+-Running script for HD145377_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 5946.6796 +/- 322.9948  without outlier removal (613).
+Teff: 5986.2703 +/- 90.16  with outlier removal (553).
+
+
+
+-Running script for HD156846_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6181.8956 +/- 136.4144  without outlier removal (543).
+Teff: 6176.5888 +/- 108.5399  with outlier removal (530).
+
+
+
+-Running script for HD202772A_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6425.7877 +/- 380.5243  without outlier removal (549).
+Teff: 6475.5659 +/- 118.6634  with outlier removal (481).
+
+
+
+-Running script for HD224538_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6097.1362 +/- 378.1453  without outlier removal (602).
+Teff: 6139.883 +/- 124.5277  with outlier removal (529).
+
+
+
+-Running script for HD231701_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6205.2689 +/- 399.3558  without outlier removal (577).
+Teff: 6288.0723 +/- 94.9911  with outlier removal (519).
+
+
+
+-Running script for HD9578_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 5970.4164 +/- 375.554  without outlier removal (556).
+Teff: 6005.9531 +/- 77.8571  with outlier removal (484).
+
+
+
+-Running script for HIP41378_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6312.8334 +/- 440.9311  without outlier removal (562).
+Teff: 6368.4044 +/- 108.7197  with outlier removal (473).
+
+
+
+-Running script for WASP-76_HARPSS_115000_378_691_2020.ares
+
+Assuming fit STD, this program output is:
+Teff: 6168.2897 +/- 363.0843  without outlier removal (604).
+Teff: 6183.6994 +/- 136.3923  with outlier removal (510).
+
+
+

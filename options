@@ -1,0 +1,14 @@
+Number_of_Pairs:                3425 20574 1238
+Figure_extension:               .jpeg
+Remove_Make_Directory:          mk
+Saving_Directory:               Graphs_logg_temp
+Colorbar:                       logg
+EW_min:                         3.0
+EW_max:                         150.0
+Log(g)_constraints:             yes
+Log(g)_min:                     4.0
+Log(g)_max:                     5.0
+Temp_constraints:               yes
+Temp_min:                       5000.0
+Temp_max:                       7500.0
+Add_On_graph:                   yes

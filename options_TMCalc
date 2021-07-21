@@ -1,0 +1,5 @@
+Line_ratio_data_file:              Graphs_210.0_3.0/Graphs_logg/ratios_list_v2
+ARES_file:                         ARES_files/HD103774A_HARPSS_115000_378_691_2020.ares
+TMCalc_Output:                     no
+Run_Several_Files:                 yes
+ARES_Several_files:                ARES_files/test_sample/

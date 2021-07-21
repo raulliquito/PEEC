@@ -1,0 +1,5 @@
+working_dir:                  TMCalc_Output_Data/
+data_dir:                     OutputData_210.0_3.0_logg/
+show_graph:                   yes
+valid_fits_interval:          100
+max_std_value:                150

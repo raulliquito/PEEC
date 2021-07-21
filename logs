@@ -1,0 +1,406 @@
+Script started on 2021-04-08 17:25:24+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="100" LINES="35"]
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 comar[K[Kpare.py
+The number of "FileNotFoundError" exceptions were 0. The program calculated 100.0% correspondance.
+The program took 287 seconds.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 compare.py
+[?25lComparison Progress[?25lCompiling Raio List
+
+The number of "FileNotFoundError" exceptions were 0. The program calculated 100.0% correspondance.
+The program took 271 seconds.
+[?25h]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ exit
+exit
+
+Script done on 2021-04-08 17:40:08+01:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-09 18:15:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="100" LINES="35"]
+7]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ 7[K./[K[Kbash[K[K[K[K./
+ARES_files/              line_pair_data/          Old/
+Graphs_5000.0_3.0/       line_pair_data_70.0_3.0/ __pycache__/
+Graphs_70.0_3.0/         MOOG_render/             Trash/
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ./[K./
+.cache/             .grsync/            .mozilla/           .ssh/
+.config/            .ipynb_checkpoints/ Music/              Templates/
+Desktop/            .ipython/           Pictures/           TMCALC-master/
+Documents/          .java/              .pki/               Videos/
+Downloads/          .jupyter/           Public/             .zoom/
+generate_models/    Jupyter_dir/        Python/             
+.gnupg/             .local/             snap/               
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../
+.cache/             .grsync/            .mozilla/           .ssh/
+.config/            .ipynb_checkpoints/ Music/              Templates/
+Desktop/            .ipython/           Pictures/           TMCALC-master/
+Documents/          .java/              .pki/               Videos/
+Downloads/          .jupyter/           Public/             .zoom/
+generate_models/    Jupyter_dir/        Python/             
+.gnupg/             .local/             snap/               
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../Tm[KMCALC-master/Tm[KMCalc.bash 
+You need to indicate one file. Example for default calibration:
+./TMCalc.bash HD20619.ares
+ 
+Example to use calibration presented in Teixeira et al.2016:
+./TMCalc.bash HD20619.ares t
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../TMCALC-master/TMCalc.bash are[K[K[KARES_files/
+HD181234_SOPHIE_HR_2020.ares            K2-189_HARPSS_115000_378_691_2020.ares
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares 
+/home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+Final Teff: 5382.059281 +- 161.185048
+starfile: /home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+number of ratios used for Teff: 49 with stddev 581.160956
+Teff: 5382.059281 +- 581.160956 (assuming the standard deviation)
+Teff: 5382.059281 +- 161.185048 (assuming the standard deviation and the number of independent ratios (13))
+Teff: 5382.059281 +- 83.022994 (assuming the standard deviation and that all ratios used are independent (49)) 
+number of lines used for [Fe/H]: 12 with stddev 0.363136
+[Fe/H]: -0.306256 +- 0.363136 (assuming the standard deviation)
+[Fe/H]: -0.306256 +- 0.104828 (assuming the standard deviation and that all lines used are independent (12)) 
+[Fe/H]: -0.306256 +- 0.368373 (assuming the standard deviation and error in Teff)
+[Fe/H]: -0.306256 +- 0.121736 (assuming the standard deviation and that all lines used are independent and error in Teff(12)) 
+[Fe/H] Corrected: -0.318871 +- 0.368373 (with small correction dependent on the derived [Fe/H]) 
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ gedit TMCalc.py &
+[1] 12695
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ f[Ked[K[Kgedit optins[K[K[Kiont[Ks_TMCalc &
+[2] 12709
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 4, in <module>
+    from funtions import *
+ModuleNotFoundError: No module named 'funtions'
+[2]+  Done                    gedit options_TMCalc
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 14, in <module>
+    ares_data = get_ares_data(ares_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 82, in get_ares_data
+    file_data = np.loadtxt(filepath,dtype=float)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: HD181234_SOPHIE_HR_2020.ares not found.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+[[4.5614100e+03 1.4306710e+01 1.9880200e+00]
+ [4.6358500e+03 5.1983900e+00 1.2868000e+00]
+ [4.7878300e+03 7.1138020e+01 4.1600800e+00]
+ [4.7943600e+03 8.8262500e+00 1.4161100e+00]
+ [4.7994100e+03 7.6584260e+01 3.8340000e+00]
+ [4.8028800e+03 5.4704590e+01 3.1097700e+00]
+ [4.9247700e+03 1.4238480e+01 3.8466000e+00]
+ [4.9463900e+03 2.7228970e+01 2.6748500e+00]
+ [5.0671500e+03 1.2862330e+01 1.4751300e+00]
+ [5.0687700e+03 2.0945950e+01 2.0940900e+00]
+ [5.0747600e+03 1.7552400e+01 2.6387100e+00]
+ [5.0881500e+03 1.6992330e+01 1.5767800e+00]
+ [5.1096500e+03 1.9133540e+01 1.6142700e+00]
+ [5.1296300e+03 6.8853320e+01 2.1512600e+00]
+ [5.1519100e+03 5.8517340e+01 2.8829300e+00]
+ [5.1800600e+03 7.1678300e+00 1.5575800e+00]
+ [5.1879100e+03 6.6173000e+01 1.6979300e+00]
+ [5.2255300e+03 4.1184880e+01 3.3367600e+00]
+ [5.2502100e+03 2.9216590e+01 2.1243700e+00]
+ [5.2530200e+03 4.7552180e+01 2.9750300e+00]
+ [5.2534700e+03 6.3611500e+00 1.1603800e+00]
+ [5.2633100e+03 7.8237910e+01 3.7166600e+00]
+ [5.2939600e+03 6.9629550e+01 2.8625000e+00]
+ [5.3616200e+03 6.2323880e+01 1.9303800e+00]
+ [5.3768300e+03 6.0193760e+01 3.2391000e+00]
+ [5.3795800e+03 1.1405620e+02 2.2792700e+00]
+ [5.3952200e+03 3.3596580e+01 1.6931700e+00]
+ [5.3982800e+03 3.8174630e+01 1.5289900e+00]
+ [5.4012700e+03 1.0200850e+01 1.6169200e+00]
+ [5.4067800e+03 6.0202640e+01 2.2948400e+00]
+ [5.4091400e+03 7.0744340e+01 1.7116200e+00]
+ [5.4329500e+03 1.2031766e+02 1.7717600e+00]
+ [5.4363000e+03 5.2713440e+01 2.7859800e+00]
+ [5.4365900e+03 2.0500150e+01 2.7737100e+00]
+ [5.4615500e+03 1.3172479e+02 3.5255200e+00]
+ [5.4731700e+03 6.3675200e+00 1.5251100e+00]
+ [5.4918300e+03 6.9426100e+00 1.0918300e+00]
+ [5.5224500e+03 9.4149600e+00 3.4878800e+00]
+ [5.5439400e+03 8.1528000e+00 1.7328400e+00]
+ [5.5465100e+03 2.2472280e+01 2.7356600e+00]
+ [5.5535800e+03 1.8884800e+01 2.4320500e+00]
+ [5.5847700e+03 1.1539210e+01 2.2323900e+00]
+ [5.5946600e+03 6.9491770e+01 1.9980000e+00]
+ [5.6186400e+03 1.4105430e+01 1.7419300e+00]
+ [5.6339500e+03 3.5576000e+00 1.3194400e+00]
+ [5.6358300e+03 2.1738220e+01 1.7725500e+00]
+ [5.6414400e+03 1.2317060e+01 1.4667300e+00]
+ [5.6625200e+03 4.2647440e+01 2.1374700e+00]
+ [5.6675200e+03 4.5041730e+01 2.5771100e+00]
+ [5.6802400e+03 6.4555300e+00 1.3795500e+00]
+ [5.7209000e+03 2.1188190e+01 2.4434300e+00]
+ [5.7317700e+03 2.9000740e+01 3.2045200e+00]
+ [5.7382400e+03 2.3000200e+00 7.5728000e-01]
+ [5.7418500e+03 2.8266180e+01 1.8390700e+00]
+ [5.7784600e+03 3.9648400e+00 1.7867400e+00]
+ [5.7939200e+03 2.0856660e+01 2.1984900e+00]
+ [5.8119200e+03 1.2163510e+01 1.7216400e+00]
+ [5.8152200e+03 5.5115700e+00 1.2950900e+00]
+ [5.8278800e+03 8.4053200e+00 1.5712000e+00]
+ [5.8531500e+03 4.1406200e+00 1.4142900e+00]
+ [5.9024800e+03 6.1788270e+01 1.8854800e+00]
+ [5.9277900e+03 8.5532200e+00 1.4349600e+00]
+ [5.9346600e+03 3.1789260e+01 1.6000900e+00]
+ [5.9836900e+03 5.2540900e+00 1.2448100e+00]
+ [5.9848200e+03 4.6768950e+01 1.8807500e+00]
+ [6.0055500e+03 4.6755600e+00 1.1280700e+00]
+ [6.0240600e+03 3.4990800e+00 1.3266000e+00]
+ [6.0270600e+03 3.3215500e+00 1.4531000e+00]
+ [6.0943800e+03 6.0437900e+00 1.9081000e+00]
+ [6.0966700e+03 3.1258930e+01 1.7550600e+00]
+ [6.1279100e+03 1.2543940e+01 1.3160100e+00]
+ [6.1516200e+03 8.8039000e+01 2.0357000e+00]
+ [6.1593800e+03 7.7328300e+01 1.8109300e+00]
+ [6.1653600e+03 4.0043700e+00 1.4751600e+00]
+ [6.1733400e+03 5.5653900e+00 1.9428800e+00]
+ [6.2207900e+03 1.2895610e+02 2.4535700e+00]
+ [6.2292400e+03 1.4610205e+02 2.0386800e+00]
+ [6.2406500e+03 1.0310990e+01 1.9674900e+00]
+ [6.2702300e+03 1.3584690e+01 1.7152500e+00]
+ [6.2909800e+03 1.0577570e+01 2.4085800e+00]
+ [6.3034600e+03 5.9383500e+00 1.8063100e+00]
+ [6.3158100e+03 2.7515580e+01 1.9531300e+00]
+ [6.3226900e+03 1.2608700e+01 2.1748200e+00]
+ [6.3368300e+03 4.8656100e+00 1.7009000e+00]
+ [6.3586800e+03 1.4199422e+02 2.0370900e+00]
+ [6.4989400e+03 1.7494140e+01 1.5186800e+00]
+ [6.6080300e+03 4.3126900e+00 1.7492700e+00]
+ [6.6091200e+03 1.4577820e+01 1.6368100e+00]
+ [6.6250200e+03 8.9462900e+00 2.3811900e+00]
+ [6.6275500e+03 3.0218300e+00 1.9405500e+00]
+ [6.6991500e+03 4.8630200e+00 1.8608100e+00]
+ [6.7130500e+03 1.2714550e+01 1.5905000e+00]
+ [6.7320700e+03 6.8152800e+00 1.5725900e+00]
+ [6.7395200e+03 1.7395130e+01 2.4147100e+00]
+ [6.7459700e+03 2.6549080e+01 2.0261300e+00]
+ [6.7868600e+03 1.1229092e+02 2.4969800e+00]
+ [6.8068500e+03 3.0773500e+00 1.1268700e+00]
+ [6.8203700e+03 1.1221580e+01 1.8810300e+00]
+ [6.8370100e+03 7.1727400e+00 1.7338100e+00]
+ [5.2569400e+03 1.3267140e+01 2.2175600e+00]
+ [5.4140700e+03 2.6647500e+00 1.1601200e+00]
+ [5.4252500e+03 1.6666930e+01 1.7219600e+00]
+ [5.9913800e+03 3.3189020e+01 1.7389800e+00]
+ [6.0841100e+03 1.3815360e+01 1.7144200e+00]
+ [6.1492500e+03 1.9466170e+01 1.6698200e+00]
+ [6.2399400e+03 8.6617000e+01 1.7376700e+00]
+ [6.2475600e+03 5.4539800e+00 1.2878400e+00]
+ [6.4072900e+03 5.2889100e+00 1.8844800e+00]
+ [6.7078300e+03 3.2492330e+01 2.3957100e+00]
+ [6.5876200e+03 8.6198830e+01 2.5161700e+00]
+ [6.1607500e+03 5.0752090e+01 1.7189400e+00]
+ [5.7110900e+03 2.0028910e+01 2.0738900e+00]
+ [6.3187200e+03 1.4443141e+02 3.0942800e+00]
+ [6.6986700e+03 4.3075700e+00 1.4692300e+00]
+ [5.7721500e+03 1.0215790e+01 1.9367300e+00]
+ [5.7978700e+03 5.9068680e+01 2.3254300e+00]
+ [5.9485400e+03 3.3965700e+00 1.4059000e+00]
+ [6.1250200e+03 1.5360440e+01 1.6563700e+00]
+ [6.1424900e+03 3.6533200e+00 2.0448500e+00]
+ [6.1450200e+03 3.3057960e+01 2.7791600e+00]
+ [6.1954600e+03 2.2792950e+01 2.3215400e+00]
+ [6.5837100e+03 4.7549500e+00 2.2138000e+00]
+ [6.7218500e+03 1.0540800e+01 3.0165900e+00]
+ [6.0526700e+03 1.7700220e+01 1.6712900e+00]
+ [6.7571700e+03 4.7205890e+01 2.7800700e+00]
+ [6.1612900e+03 2.4097260e+01 3.9601200e+00]
+ [6.1664400e+03 4.2755200e+00 1.9927000e+00]
+ [5.5268200e+03 4.5049600e+01 2.0351600e+00]
+ [5.6671400e+03 1.2127343e+02 3.1999700e+00]
+ [6.3208400e+03 3.1317200e+01 1.7238400e+00]
+ [6.6046000e+03 6.7158900e+00 1.8503800e+00]
+ [4.6751100e+03 8.7922800e+00 3.5060300e+00]
+ [4.7226100e+03 6.6228360e+01 3.1375800e+00]
+ [5.0161700e+03 3.3166000e+00 3.4241900e+00]
+ [5.0714900e+03 5.2511980e+01 4.1798500e+00]
+ [5.1454700e+03 1.1068069e+02 4.0449700e+00]
+ [5.4901600e+03 4.9711800e+00 2.4386700e+00]
+ [5.5039000e+03 7.5204200e+00 1.8383700e+00]
+ [5.8664500e+03 9.1238200e+00 2.4338200e+00]
+ [5.9658400e+03 1.0227459e+02 3.2823900e+00]
+ [5.9785500e+03 2.0602210e+01 2.0439900e+00]
+ [6.0646300e+03 7.9277240e+01 2.1598500e+00]
+ [6.0911800e+03 3.7391650e+01 2.2539200e+00]
+ [6.2581100e+03 8.7898400e+00 1.6832300e+00]
+ [4.6572000e+03 1.1135110e+01 1.8542500e+00]
+ [6.0902100e+03 1.6884580e+01 1.4944900e+00]
+ [6.2245100e+03 6.0766420e+01 1.8128400e+00]
+ [6.2518300e+03 2.4982000e+00 1.0714200e+00]
+ [6.2746600e+03 5.9616900e+00 1.7782300e+00]
+ [6.2851700e+03 1.0690470e+01 1.9750700e+00]
+ [4.9363400e+03 4.9348240e+01 2.3699900e+00]
+ [4.9649300e+03 5.9643800e+00 1.6174200e+00]
+ [5.2141400e+03 6.3432380e+01 3.2968200e+00]
+ [5.2871800e+03 3.2517710e+01 2.1102400e+00]
+ [5.3007500e+03 1.3081830e+01 1.6609700e+00]
+ [5.7811800e+03 1.6176190e+01 1.8881900e+00]
+ [6.8825200e+03 9.6008400e+00 1.9925800e+00]
+ [4.8846100e+03 3.1158080e+01 3.0268600e+00]
+ [4.7391100e+03 2.7742410e+01 4.0280700e+00]
+ [5.3994700e+03 1.2430200e+02 3.0354000e+00]
+ [5.6472400e+03 3.6012630e+01 1.6040500e+00]
+ [6.8149500e+03 2.3852080e+01 1.8197300e+00]
+ [4.9460400e+03 2.1082480e+01 1.7291400e+00]
+ [4.9522900e+03 2.1553333e+02 3.7110200e+00]
+ [4.9763300e+03 1.2778770e+01 3.1112400e+00]
+ [5.0811100e+03 1.0147973e+02 2.9702700e+00]
+ [5.4625000e+03 1.9371436e+02 2.6269400e+00]
+ [5.5787200e+03 3.5683650e+01 2.0162700e+00]
+ [5.5893600e+03 2.3611200e+00 9.8727000e-01]
+ [5.6283500e+03 6.3367110e+01 2.2654300e+00]
+ [5.6418800e+03 7.6110600e+00 1.9908700e+00]
+ [5.6822000e+03 1.3041000e+01 2.5794300e+00]
+ [5.7483600e+03 8.8499200e+00 1.3557700e+00]
+ [6.0073100e+03 6.2280800e+00 1.4485900e+00]
+ [6.1197600e+03 7.3354100e+00 1.5645100e+00]
+ [6.1289800e+03 6.4409550e+01 1.9258900e+00]
+ [6.1301400e+03 8.3357140e+01 2.1441300e+00]
+ [6.2301000e+03 4.1864600e+00 1.9213400e+00]
+ [6.3221700e+03 2.6164550e+01 2.0139400e+00]
+ [6.3276000e+03 6.1751590e+01 1.8585600e+00]
+ [6.3782600e+03 1.1309403e+02 1.9809400e+00]
+ [6.6351300e+03 2.2607230e+01 2.4348900e+00]
+ [6.7677800e+03 3.6681900e+00 2.6580700e+00]
+ [6.7723200e+03 1.6426080e+01 2.8108800e+00]
+ [5.2182100e+03 3.8019590e+01 2.9204000e+00]
+ [6.3623500e+03 1.0013950e+01 1.5410600e+00]
+ [4.9001200e+03 1.5746180e+01 1.9790100e+00]
+ [5.4027800e+03 1.3211280e+01 1.8231700e+00]]
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ exit
+exit
+
+Script done on 2021-04-09 18:55:47+01:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-09 19:26:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="100" LINES="35"]
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 compare.py [K[K[K[K[K[K[K[K[K[K[KTMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file)
+NameError: name 'lr_data_file' is not defined
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 90, in get_LR_data
+    file_data = np.loadtxt(filepath,dtype=float,usecols=(0,1,2,3,4,5,6,7,8))
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: Graphs_70.0_3.0/Graphs/ratio_list not found.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ RM[K[K../TMCALC-master/TMCalc.bash /[K..[K[KARES_files/HD181234_SOPHIE_HR_2020.ares 
+/home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+Final Teff: 5382.059281 +- 161.185048
+starfile: /home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+number of ratios used for Teff: 49 with stddev 581.160956
+Teff: 5382.059281 +- 581.160956 (assuming the standard deviation)
+Teff: 5382.059281 +- 161.185048 (assuming the standard deviation and the number of independent ratios (13))
+Teff: 5382.059281 +- 83.022994 (assuming the standard deviation and that all ratios used are independent (49)) 
+number of lines used for [Fe/H]: 12 with stddev 0.363136
+[Fe/H]: -0.306256 +- 0.363136 (assuming the standard deviation)
+[Fe/H]: -0.306256 +- 0.104828 (assuming the standard deviation and that all lines used are independent (12)) 
+[Fe/H]: -0.306256 +- 0.368373 (assuming the standard deviation and error in Teff)
+[Fe/H]: -0.306256 +- 0.121736 (assuming the standard deviation and that all lines used are independent and error in Teff(12)) 
+[Fe/H] Corrected: -0.318871 +- 0.368373 (with small correction dependent on the derived [Fe/H]) 
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares 
+/home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+Final Teff: 5382.059281 +- 161.185048
+starfile: /home/raulliquito/generate_models/ARES_files/HD181234_SOPHIE_HR_2020.ares
+number of ratios used for Teff: 49 with stddev 581.160956
+Teff: 5382.059281 +- 581.160956 (assuming the standard deviation)
+Teff: 5382.059281 +- 161.185048 (assuming the standard deviation and the number of independent ratios (13))
+Teff: 5382.059281 +- 83.022994 (assuming the standard deviation and that all ratios used are independent (49)) 
+number of lines used for [Fe/H]: 12 with stddev 0.363136
+[Fe/H]: -0.306256 +- 0.363136 (assuming the standard deviation)
+[Fe/H]: -0.306256 +- 0.104828 (assuming the standard deviation and that all lines used are independent (12)) 
+[Fe/H]: -0.306256 +- 0.368373 (assuming the standard deviation and error in Teff)
+[Fe/H]: -0.306256 +- 0.121736 (assuming the standard deviation and that all lines used are independent and error in Teff(12)) 
+[Fe/H] Corrected: -0.318871 +- 0.368373 (with small correction dependent on the derived [Fe/H]) 
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ ../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares [A]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ [32Ppython3 TMCalc.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kspeedtest-cli exit[Kpython3 TMCalc.py ../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares [A]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares [A]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ [32Ppython3 TMCalc.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kspeedtest-cli [5Pmore logs[5@script -a[C[C[C[C[Cexit[Kpython3 TMCalc.py gedit options_TMCalc &[5PTMCalc.py[C[C[5@options_TMCalc[C[C[5PTMCalc.py[C[C[5@options_TMCalc[C[C[5PTMCalc.py[C[C[5@options_TMCalc[C[C[4Ppython3 TMCalc.py exit[Kscript -a logs[5Pmore[C[C[C[C[Cspeedtest-cli exit[Kpython3 TMCalc.py ../TMCALC-master/TMCalc.bash ARES_files/HD181234_SOPHIE_HR_2020.ares [A]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 90, in get_LR_data
+    file_data = np.loadtxt(filepath,dtype=float,usecols=(0,1,2,3,4,5,6,7,8))
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: Graphs_70.0_3.0/Graphs/ratio_list not found.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 90, in get_LR_data
+    file_data = np.loadtxt(filepath,dtype=float,usecols=(0,1,2,3,4,5,6,7,8))
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: Graphs_70.0_3.0/Graphs/ratio_list not found.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 14, in <module>
+    ares_data = get_ares_data(ares_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 82, in get_ares_data
+    file_data = np.loadtxt(filepath,dtype=float)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 528, in open
+    return _file_openers[ext](found, mode=mode,
+FileNotFoundError: [Errno 2] No such file or directory: '/ARES_files/HD181234_SOPHIE_HR_2020.ares'
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+['Graphs_70.0_3.0/Graphs/ratio_list', 'ARES_files/HD181234_SOPHIE_HR_2020.ares']
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 90, in get_LR_data
+    file_data = np.loadtxt(filepath,dtype=float,usecols=(0,1,2,3,4,5,6,7,8))
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1065, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: Graphs_70.0_3.0/Graphs/ratio_list not found.
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+Traceback (most recent call last):
+  File "TMCalc.py", line 15, in <module>
+    lr_data = get_LR_data(lr_data_file_path)
+  File "/home/raulliquito/generate_models/functions.py", line 90, in get_LR_data
+    file_data = np.loadtxt(filepath,dtype=float,usecols=(0,1,2,3,4,5,6,7,8))
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1146, in loadtxt
+    for x in read_data(_loadtxt_chunksize):
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 997, in read_data
+    items = [conv(val) for (conv, val) in zip(converters, vals)]
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 997, in <listcomp>
+    items = [conv(val) for (conv, val) in zip(converters, vals)]
+  File "/home/raulliquito/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 734, in floatconv
+    return float(x)
+ValueError: could not convert string to float: 'pair'
+]0;raulliquito@raulliquito-N552VX: ~/generate_models[01;32mraulliquito@raulliquito-N552VX[00m:[01;34m~/generate_models[00m$ python3 TMCalc.py 
+[[ 1.00000e+00  3.20000e+02  5.24706e+03 ...  5.97723e+02 -4.01420e+01
+   0.00000e+00]
+ [ 3.00000e+00  3.01000e+02  5.24706e+03 ...  6.00134e+02 -3.17250e+01
+   0.00000e+00]
+ [ 7.00000e+00  3.13000e+02  5.24706e+03 ...  5.98402e+02 -4.04990e+01
+   0.00000e+00]
+ ...
+ [ 1.22400e+03  1.96000e+02  6.33013e+03 ... -5.14129e+02  5.08610e+01
+   0.00000e+00]
+ [ 1.22500e+03  2.17000e+02  6.33013e+03 ...  6.12832e+02  9.57610e+01
+   2.00000e+00]
+ [ 1.23700e+03  2.25000e+02  6.32760e+03 ...  7.63828e+02 -4.60240e+01
+   2.00000e+00]]
+]0;raulliquito@raulliquito-N552VX: ~

@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from functions import *
 
+plt.rcParams.update({'font.size': 20})
+
 #set options
 options = get_settings('options_analyse_TMCalc')
 working_dir = options[0] #TMCalc output data dir
@@ -87,14 +89,34 @@ if len(faulty_pairs_index) !=0:
     std_desvios_medios = np.delete(std_desvios_medios,faulty_pairs_index)
     std_fit = np.delete(std_fit,faulty_pairs_index)
 
+indexes = np.arange(0,nop,1)
+remove_pairs_index = np.where(std_desvios_medios>max_std_value)[0]
+desvios_medios = np.delete(desvios_medios,remove_pairs_index)
+std_desvios_medios = np.delete(std_desvios_medios,remove_pairs_index)
+indexes = np.delete(indexes,remove_pairs_index)
+#print(len(indexes))
+
 if show_graph == 'yes':
     plt.figure(1,figsize = (16,8))
     plt.title('Average Temperature Deviation vs. Line Pair (Data compiled with ' + str(nof) + ' stars)')
-    plt.scatter(np.arange(0,nop,1),desvios_medios,c = std_desvios_medios)
+    plt.scatter(indexes,desvios_medios,c = std_desvios_medios)
     plt.grid()
     plt.ylabel('Average Temperature Deviation')
     plt.xlabel('Pair Index')
     plt.colorbar(label = 'Star Temperature STD')
+
+    plt.figure(2,figsize = (16,8))
+    plt.title('Average Temperature Deviation vs. Line Pair (Data compiled with ' + str(nof) + ' stars)')
+    plt.scatter(indexes,desvios_medios,c = std_desvios_medios)
+    plt.grid()
+    plt.ylabel('Average Temperature Deviation')
+    plt.xlabel('Pair Index')
+    plt.colorbar(label = 'Star Temperature STD')
+    plt.ylim(-500,500)
+    plt.hlines(100,0,2280,color = 'black',linestyles='--')
+    plt.hlines(-100,0,2280,color = 'black',linestyles='--')
+    plt.show()
+
 
     #plt.figure(2,figsize = (16,8))
     #plt.title('Average Temperature Deviation vs. Line Pair (Data compiled with ' + str(nof) + ' stars)')
@@ -104,7 +126,6 @@ if show_graph == 'yes':
     #plt.xlabel('Pair Index')
     #plt.colorbar(label = 'Pair Fit Temperature STD')
 
-indexes = np.arange(0,nop,1)
 #now we want to chose which line pairs stay
 
 #main removal on fixed interval
@@ -115,11 +136,7 @@ indexes = np.delete(indexes,remove_pairs_index)
 #print(len(indexes))
 
 #second removal, check which of the points does not go outside of the main upper or lower bound when considering STD
-remove_pairs_index = np.where(std_desvios_medios>max_std_value)[0]
-desvios_medios = np.delete(desvios_medios,remove_pairs_index)
-std_desvios_medios = np.delete(std_desvios_medios,remove_pairs_index)
-indexes = np.delete(indexes,remove_pairs_index)
-#print(len(indexes))
+
 
 print(len(indexes))
 
@@ -147,12 +164,3 @@ for i in range(len(file_lines)-1):
     if len(np.where(indexes==i)[0]) != 0:
         new_file.write(file_lines[i+1])
 new_file.close()
-
-plt.figure(2,figsize = (16,8))
-plt.title('Average Temperature Deviation vs. Line Pair (Data compiled with ' + str(nof) + ' stars)')
-plt.scatter(indexes,desvios_medios,c = std_desvios_medios)
-plt.grid()
-plt.ylabel('Average Temperature Deviation')
-plt.xlabel('Pair Index')
-plt.colorbar(label = 'Star Temperature STD')
-plt.show()
